@@ -202,7 +202,7 @@ def result(list_result, image_path):
 
 
 #BUCKET = 'sagemaker-aidevops'
-BUCKET = 'aidevops-inference-pipeline-bucket'
+BUCKET = 'cop-group9'
 prefix = 'working-storage/'
 #TEST_IMAGE_PATHS = getList(BUCKET,prefix )
 TEST_IMAGE_PATHS = ['working-storage/sample.jpg']

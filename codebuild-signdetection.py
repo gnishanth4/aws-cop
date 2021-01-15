@@ -165,7 +165,7 @@ print(TEST_IMAGE_PATHS)
 # In[11]:
 
 #BUCKET = 'sagemaker-aidevops'
-BUCKET = 'aidevops-inference-pipeline-bucket'
+BUCKET = 'cop-group9'
 prefix = 'working-storage/'
 #TEST_IMAGE_PATHS = getList(BUCKET,prefix )
 TEST_IMAGE_PATHS = ['working-storage/sample.jpg']
@@ -219,7 +219,7 @@ vis_util.visualize_boxes_and_labels_on_image_array(
                 use_normalized_coordinates=True,
                 line_thickness=6)
 
-numpy_to_s3('aidevops-inference-pipeline-bucket','sign-detection/sample.jpg',image_np)
+numpy_to_s3('cop-group9','sign-detection/sample.jpg',image_np)
 
 '''
 plt.figure(idx, figsize=IMAGE_SIZE)

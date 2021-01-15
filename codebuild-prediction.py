@@ -28,7 +28,7 @@ name=['name']
 
 # downloading image from S3.
 #bucketname = 'sagemaker-aidevops' # replace with your bucket name
-bucketname =  'aidevops-inference-pipeline-bucket' # replace with your bucket name
+bucketname =  'cop-group9' # replace with your bucket name
 
 filename = 'inference-data/sample.jpg' # replace with your object key
 s3 = boto3.resource('s3')
