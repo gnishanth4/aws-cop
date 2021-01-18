@@ -4,7 +4,7 @@ import boto3
 #path = sys.argv[-1]
 #path = "s3://sagemaker-aidevops/inference-output/output.txt"
 #path = "s3://sagemaker-aidevops/inference-output/output.txt"
-bucket_name = 'cop-group9'
+bucket_name = 'cop-group9-nishanth'
 key_read ='inference/sample.jpg'
 key_write ='working-storage/sample.jpg'
 #pred_output = 'inference-output/output.txt'
